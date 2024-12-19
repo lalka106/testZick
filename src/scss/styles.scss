@@ -1,0 +1,16 @@
+//@use '../../node_modules/bootstrap/scss/bootstrap';
+@import url(bootstrap);
+
+
+p {
+    margin: auto;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.rounded-corners {
+    border-top-right-radius: 20px; /* Закругляем верхний правый угол */
+    border-bottom-left-radius: 20px; /* Закругляем нижний левый угол */
+}
+

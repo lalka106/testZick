@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap w/ Webpack</title>
+  </head>
+  <body>
+      <nav class="navbar fixed-top navbar-expand-sm bg-light text-dark" aria-label="Third navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Бренд</a>
+
+    
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catalog">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Цены</a>
+              </li>
+            </ul>
+
+          </div>
+          <div class=""><button type="button" class="btn btn-primary rounded-corners" data-bs-toggle="modal"  data-bs-target="#myModal">Заказать</button></div>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse"  data-bs-target="#navbarsExample03"  aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+        </div>
+      </nav>
+      <div class="min-vh-100 w-100">
+          <video autoplay loop controls preload="auto" class="min-vh-100 w-100 " type="video/mp4" src="https://gitrequests.github.io/interview-bootstrap/assets/video.mp4" >
+          </video>
+          <div class="content z-2  text-center">
+            <h1>fsfsf</h1>
+            <p>fsfsffs</p>
+          </div>
+      </div>
+    <div class="bg-dark ">
+      <div class="container py-4 px-3 mx-auto">
+        <p class="text-center text-white" id="catalog">Каталог</p>
+      </div>
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img src="https://gitrequests.github.io/interview-bootstrap/assets/image.webp" class="bd-placeholder-img card-img-top" alt="">
+                <div class="card-body flex-grow-1">
+                  <p class="card-title">Товар</p>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa nesciunt consequatur unde</p>
+                  <ul class="mb-2 mb-sm-0">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                  </ul>
+                 
+                </div>
+                <div class="d-flex justify-content-between align-items-center m-3">
+                  <button type="button" class="btn btn-primary w-100 mt-lg-5" data-bs-toggle="modal" data-bs-target="#myModal">Купить</button>
+              </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://gitrequests.github.io/interview-bootstrap/assets/image.webp" class="bd-placeholder-img card-img-top" alt="">
+                <div class="card-body flex-grow-1">
+                  <p class="card-title">Товар</p>
+                  <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis temporibus incidunt voluptatem, numquam facere provident tempore et veniam amet debitis eum quae saepe quis aliquid tenetur dolor voluptates soluta nemo. consectetur adipisicing elit. Voluptas ipsa nesciunt consequatur unde</p>
+                  <ul class="mb-2 mb-sm-0">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                  </ul>
+                </div>
+                <div class="d-flex justify-content-between align-items-center m-3">
+                  <button type="button" class="btn btn-primary w-100 mt-lg-5" data-bs-toggle="modal" data-bs-target="#myModal">Купить</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="myModalLabel">Модальное окно</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Это содержимое вашего модального окна.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                  <button type="button" class="btn btn-primary">Сохранить изменения</button>
+              </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
